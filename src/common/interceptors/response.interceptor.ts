@@ -62,9 +62,6 @@ export class ResponseTransformInterceptor<T>
           };
         }
 
-        /**
-         * ✅ NORMAL RESPONSE
-         */
         let message = 'Success';
         let data = value;
 

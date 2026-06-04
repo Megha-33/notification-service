@@ -7,7 +7,7 @@ export async function renderTemplate(
     data: Record<string, any>,
   ): Promise<string> {
     const filePath = path.join(
-      process.cwd(), // 👈 VERY IMPORTANT (root of project)
+      process.cwd(),
       'src',
       'email',
       'templates',
